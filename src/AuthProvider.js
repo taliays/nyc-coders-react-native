@@ -4,7 +4,18 @@ import { AsyncStorage } from 'react-native';
 export const AuthContext = React.createContext({});
 
 export const AuthProvider = ({ children }) => {
+  /*
+    constructor() {
+      super()
+      this.state = {
+        user: null
+      }
+    }
+
+  */
+
   const [user, setUser] = useState(null);
+
   return (
     <AuthContext.Provider value={{
       user,

@@ -10,7 +10,7 @@ const Stack = createStackNavigator();
 export const SettingsStack = () => {
   const { logout } = useContext(AuthContext);
   return (
-    <Stack.Navigator>
+    <Stack.Navigator initialRouteName="Feed">
       <Stack.Screen 
         name="Feed" 
         options={{

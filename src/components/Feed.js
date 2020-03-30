@@ -8,7 +8,7 @@ export const Feed = ({ navigation }) => {
     <Center>
       <FlatList
         style={{width: '100%'}}
-        renderItem={({ item}) => {
+        renderItem={({ item }) => {
           return <Button title={item} onPress={() => {navigation.navigate("Product", {
             name: item
           })}} />
