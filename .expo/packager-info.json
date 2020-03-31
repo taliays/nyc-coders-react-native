@@ -1,9 +1,9 @@
 {
-  "devToolsPort": 19003,
-  "expoServerPort": 19004,
-  "packagerPort": 19005,
-  "packagerPid": 20111,
-  "expoServerNgrokUrl": "https://f6-xm6.anonymous.nyc-coders-react-native.exp.direct",
-  "packagerNgrokUrl": "https://packager.f6-xm6.anonymous.nyc-coders-react-native.exp.direct",
-  "ngrokPid": 20133
+  "devToolsPort": 19002,
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null
 }

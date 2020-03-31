@@ -2,6 +2,7 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Portfolio } from './components/Portfolio';
 import { Wallet } from './components/Wallet';
+import { SampleImage } from './components/SampleImage';
 import { SettingsStack } from './SettingsStack';
 import { Ionicons, AntDesign } from '@expo/vector-icons';
 
@@ -34,7 +35,7 @@ export const BottomTabs = () => {
       }}
     >
       <Tabs.Screen name="Portfolio" component={Portfolio}/>
-      <Tabs.Screen name="Wallet" component={Wallet}/>
+      <Tabs.Screen name="SampleImage" component={SampleImage}/>
       <Tabs.Screen name="Settings" component={SettingsStack}/>
     </Tabs.Navigator>
   )
